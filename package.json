@@ -1,0 +1,42 @@
+{
+  "name": "@pddstudio/shelljs-plugin-bash-exec",
+  "version": "0.0.1",
+  "description": "Add a .bashExec method to ShellJS",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "posttest": "npm run lint",
+    "test": "mocha",
+    "lint": "eslint .",
+    "changelog": "shelljs-changelog",
+    "release:major": "shelljs-release major",
+    "release:minor": "shelljs-release minor",
+    "release:patch": "shelljs-release patch"
+  },
+  "keywords": [
+    "shelljs",
+    "n_shell"
+  ],
+  "author": "Patrick Jung <patrick.pddstudio@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pddstudio/shelljs-plugin-bash-exec.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.1",
+    "mocha": "^2.5.3",
+    "shelljs": "^0.8.1",
+    "shelljs-changelog": "^0.2.2",
+    "shelljs-release": "^0.2.0",
+    "should": "^10.0.0"
+  },
+  "peerDependencies": {
+    "shelljs": "^0.8.1"
+  }
+}
