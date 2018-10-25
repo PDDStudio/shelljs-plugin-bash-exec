@@ -2,7 +2,7 @@
 
 [![Travis](https://img.shields.io/travis/pddstudio/shelljs-plugin-bash-exec/master.svg?style=flat-square&label=unix)](https://travis-ci.org/pddstudio/shelljs-plugin-bash-exec)
 [![npm](https://img.shields.io/npm/v/@pddstudio/shelljs-plugin-bash-exec.svg?style=flat-square)](https://www.npmjs.com/package/@pddstudio/shelljs-plugin-bash-exec)
-[![shelljs-plugin](https://img.shields.io/badge/shelljs-plugin-brightgreen.svg?style=flat-square)](https://github.com/shelljs/shelljs/wiki/Using-ShellJS-Plugins)
+[![shelljs-plugin](https://img.shields.io/badge/shelljs-plugin-brightgreen.svg?style=flat-square)](https://github.com/shelljs/shelljs/wiki/Using-ShellJS-Plugins) [![Greenkeeper badge](https://badges.greenkeeper.io/PDDStudio/shelljs-plugin-bash-exec.svg)](https://greenkeeper.io/)
 
 A [ShellJS](https://github.com/shelljs/shelljs) plugin to add a `.bashExec()` method.
 
